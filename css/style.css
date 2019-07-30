@@ -1,5 +1,5 @@
 * {
-  border: solid red 1px !important;
+  border: solid red 1px;
   }
 
 html, body {
@@ -63,7 +63,6 @@ footer p {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
-  
 }
 
 .container {
@@ -71,10 +70,23 @@ footer p {
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
+  border: dotted blue 1px;
+}
+
+.container p {
+  padding: 50px;
+}
+
+.container2 {
+  /* max-width: 940px; */
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+  border: dotted green 5px;
 }
 
 .jumbotron {
-  height: 800px;
+  height: 200px;
   background-image: url("../images/lighthouse.jpg");
 /* transparancy before - after*/
   background-color: rgba(255, 128, 0, 0.75)
@@ -82,6 +94,7 @@ footer p {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border: dotted white 1px;
 }
 
 .btn-main {
@@ -107,6 +120,17 @@ footer p {
   margin-bottom: 20px;      
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: ;
+}
+.grid-header {
+  grid-column: 1 / 4;
+}
+.grid-item1{
+  ;
+}
 .supporting {
   padding-top: 80px;
   padding-bottom: 100px;
