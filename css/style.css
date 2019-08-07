@@ -22,15 +22,14 @@ body {
     list-style: none;
     font-size: 0.7em;
     margin-left: 0;
+    align-items: center;
   }
 
 img {
   width: 10em;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }  
 
-img:hover {
-  transform: scale(1.1);
-}
 @media only screen and (max-width: 800px) {
   .main-nav {
     font-size: 0.7em;
@@ -65,7 +64,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 10vh;
+  height: 5vh;
   background-color: #fff;
   color: #000;
 }
@@ -75,11 +74,13 @@ h1 {
   font-style: italic;
 }
 .grid {
-  
+  background: #fff;
+  color: gray;
 }
 
 li {
-    padding: 10px;  
+    padding: 0.5em;  
+    align-items: center;
 }
 
 a:hover {
@@ -89,6 +90,7 @@ a:hover {
   a {
     color: #fff;
     text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
 
   footer {
