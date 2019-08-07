@@ -1,9 +1,12 @@
+/*
 * {
   border: solid red 1px !important;
   }
+*/
 body {
   margin: 0 auto;
-  background-color: #0096cc;
+  /* background-color: #0096cc; */
+  background: linear-gradient(90deg, #0096cc, #cbd400);
   font-family: "railway", sans-serif;
 }
 
@@ -65,7 +68,6 @@ h1 {
   align-items: center;
   justify-content: space-between;
   height: 5vh;
-  background-color: #fff;
   color: #000;
 }
 
@@ -74,7 +76,6 @@ h1 {
   font-style: italic;
 }
 .grid {
-  background: #fff;
   color: gray;
 }
 
